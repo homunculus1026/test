@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow">
+    <title>お料理</title>
+    <link rel="icon" type="image/jpg" href="images/ryu.jpg">
+    <link rel="stylesheet" href="css/cuisine.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+    <header class="page-header">
+        <div id="drawer_toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="header-top">
+            <a href="index.html"><img class="logo" src="images/ryu.jpg" alt=""></a>
+            <nav>
+                <ul class="list">
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="cuisine.html">お料理</a></li>
+                    <li><a href="room.html">客室</a></li>
+                    <li><a href="spa.html">温泉</a></li>
+                    <li><a href="access.html">アクセス</a></li>
+                    <li><a href="form.html">お問い合わせ</a></li>
+                    <div class="content">
+                        <a class="js-modal-open" href="">空室検索</a>
+                    </div>
+                    <div class="modal js-modal">
+                        <div class="modal__bg js-modal-close"></div>
+                        <div class="modal__content">
+                            <div class="form_search_modal">
+                                <h3 style="font-size: 1.7rem;">空室検索</h3>
+                                <form action="#" id="form2">
+                                    <div>
+                                        <label>
+                                            <span>ご宿泊日</span>
+                                            <input type="date" value="date">
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <em>泊数</em>
+                                        <select name="" id="">
+                                            <option value="1"
+                                                selected="selected"
+                                                slot="haku">1泊</option>
+                                            <option value="2">2泊</option>
+                                            <option value="3">3泊</option>
+                                            <option value="4">4泊</option>
+                                            <option value="5">5泊</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <em>人数(1部屋あたり)</em>
+                                        <select name="" id="">
+                                            <option value="1"
+                                                selected="selected"
+                                                slot="haku">1名</option>
+                                            <option value="2">2名</option>
+                                            <option value="3">3名</option>
+                                            <option value="4">4名</option>
+                                            <option value="5">5名</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <em>部屋数</em>
+                                        <select name="" id="">
+                                            <option value="1"
+                                                selected="selected"
+                                                slot="haku">1室</option>
+                                            <option value="2">2室</option>
+                                            <option value="3">3室</option>
+                                            <option value="4">4室</option>
+                                            <option value="5">5室</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <input type="button" value="検索"
+                                                id="searchBtn">
+                                        </a>
+                                    </div>
+                                </form>
+                                <a class="js-modal-close" href="">閉じる</a>
+                            </div><!--modal__inner-->
+                        </div><!--modal-->
+                    </div>
+                    </ul>
+            </nav>
+        </div>
+        <div class="header-main">
+            <h1>お料理</h1>
+        </div>
+    </header>
+
+    <main>
+        <h3>
+            毎月変わるお品書きには、旬の素材をふんだんに使用した多彩なお料理が並びます。<br>
+            季節の素材にこだわり、一皿一皿に丹精を込め、丁寧に作りあげたおもてなしの料理。<br>
+            うつくしく繊細な盛り付けが、更に旬の食材そのものの旨みを引き立たせます。
+        </h3>
+        <h4>お料理の一例</h4>
+        <p></p>
+        <div class="box_content">
+            <div class="box_img">
+                <div class="img">
+                    <img src="images/food1.jpg" alt="お肉料理">
+                </div>
+                <div class="text">
+                    <h5>〇〇牛</h5>
+                    <p>上質な〇〇牛のステーキを黒いスレート板で焼きながら<br>召し上がっていただけます。</p>
+                </div>
+            </div>
+            <div class="box_img">
+                <div class="text">
+                    <h5>陶板蒸焼き蟹</h5>
+                    <p>ずわいがに特有の香りと甘みが口の中いっぱいに広がります。</p>
+                </div>
+                <div class="img">
+                    <img src="images/food2.jpg" alt="お肉料理">
+
+                </div>
+            </div>
+            <div class="box_img">
+                <div class="img">
+                    <img src="images/food3.jpg" alt="お肉料理">
+                </div>
+                <div class="text">
+                    <h5>かまどで炊く贅沢松茸ご飯</h5>
+                    <p>香りの良い松茸をお出汁の効いた醤油ベースで炊き込みます。<br>松茸の芳醇な香りのする炊き込みご飯は贅沢な気分にさせてくれます。</p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow">
+    <title>フォーム</title>
+    <link rel="icon" type="image/jpg" href="images/ryu.jpg">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/form.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="slick-1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header class="page-header">
+        <div id="drawer_toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header-top">
+            <a href="index.html"><img class="logo" src="images/ryu.jpg" alt=""></a>
+            <nav>
+                <ul class="list">
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="cuisine.html">お料理</a></li>
+                    <li><a href="room.html">客室</a></li>
+                    <li><a href="spa.html">温泉</a></li>
+                    <li><a href="access.html">アクセス</a></li>
+                    <li><a href="form.html">お問い合わせ</a></li>
+                    <div class="content">
+                        <a class="js-modal-open" href="">空室検索</a>
+                    </div>
+                    <div class="modal js-modal">
+                        <div class="modal__bg js-modal-close"></div>
+                        <div class="modal__content">
+                            <div class="form_search_modal">
+                                <h3 style="font-size: 1.7rem;">空室検索</h3>
+                                <form action="#" id="form2">
+                                    <div>
+                                        <label>
+                                            <span>ご宿泊日</span>
+                                            <input type="date" value="date">
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <em>泊数</em>
+                                        <select name="" id="">
+                                            <option value="1" selected="selected" slot="haku">1泊</option>
+                                            <option value="2">2泊</option>
+                                            <option value="3">3泊</option>
+                                            <option value="4">4泊</option>
+                                            <option value="5">5泊</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <em>人数(1部屋あたり)</em>
+                                        <select name="" id="">
+                                            <option value="1" selected="selected" slot="haku">1名</option>
+                                            <option value="2">2名</option>
+                                            <option value="3">3名</option>
+                                            <option value="4">4名</option>
+                                            <option value="5">5名</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <em>部屋数</em>
+                                        <select name="" id="">
+                                            <option value="1" selected="selected" slot="haku">1室</option>
+                                            <option value="2">2室</option>
+                                            <option value="3">3室</option>
+                                            <option value="4">4室</option>
+                                            <option value="5">5室</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <input type="button" value="検索" id="searchBtn">
+                                        </a>
+                                    </div>
+                                </form>
+                                <a class="js-modal-close" href="">閉じる</a>
+                            </div><!--modal__inner-->
+                        </div><!--modal-->
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-main">
+            <h1>お問い合わせ</h1>
+        </div>
+    </header>
+
+    <main>
+        <form method="POST" action="contactform.php" id="form">
+            <table class="tbl_form">
+                <tr>
+                    <th>お名前（漢字）<span>*</span></th>
+                    <td><input type="text" name="name" placeholder="例)山田 太郎"></td>
+                </tr>
+                <tr>
+                    <th>フリガナ（全角カタカナ）<span>*</span></th>
+                    <td><input type="text" name="furigana" placeholder="例)ヤマダ タロウ"></td>
+                </tr>
+                <!-- <tr>
+                        <th>連絡方法</th>
+                        <td>
+                            <label><input type="radio" value="tel" name="radio" checked>電話での連絡を希望する</label><br>
+                            <label><input type="radio" value="mail" name="radio">メールでの連絡を希望する</label>
+                        </td>
+                    </tr> -->
+                <tr>
+                    <th>お電話番号<span>*</span></th>
+                    <td><input type="tel" name="tel"></td>
+                </tr>
+                <tr>
+                    <th>メールアドレス<span>*</span></th>
+                    <td><input type="email" name="mail"></td>
+                </tr>
+                <tr>
+                    <th>メールアドレス確認<span>*</span></th>
+                    <td><input type="email2" name="mail2"></td>
+                </tr>
+                <tr>
+                    <th>お問い合わせ内容</th>
+                    <td><textarea name="textarea" id="" cols="110" rows="10" placeholder="お問い合わせ内容をご記入ください"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="送信">
+        </form>
+
+
+    </main>
+
+</body>
+
+</html>
