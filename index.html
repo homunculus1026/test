@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>癒しの宿 龍人荘</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/jpg" href="images/ryu.jpg">
+        <link
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet">
+        <meta name="robots" content="noindex,nofollow">
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+
+    <body>
+        <header class="page-header">
+            <div id="drawer_toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="header-top">
+                <a href="index.html"><img class="logo" src="images/ryu.jpg"
+                        alt=""></a>
+                <nav>
+                    <ul class="list">
+                        <li><a href="news.html">NEWS</a></li>
+                        <li><a href="cuisine.html">お料理</a></li>
+                        <li><a href="room.html">客室</a></li>
+                        <li><a href="spa.html">温泉</a></li>
+                        <li><a href="access.html">アクセス</a></li>
+                        <li><a href="form.html">お問い合わせ</a></li>
+                        <div class="content">
+                            <a class="js-modal-open" href="">空室検索</a>
+                        </div>
+                        <div class="modal js-modal">
+                            <div class="modal__bg js-modal-close"></div>
+                            <div class="modal__content">
+                                <div class="form_search_modal">
+                                    <h3 style="font-size: 1.7rem;">空室検索</h3>
+                                    <form method= POST action="#" id="form2">
+                                        <div>
+                                            <label>
+                                                <span>ご宿泊日</span>
+                                                <input type="date" value="date">
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <em>泊数</em>
+                                            <select name="" id="">
+                                                <option value="1"
+                                                    selected="selected"
+                                                    slot="haku">1泊</option>
+                                                <option value="2">2泊</option>
+                                                <option value="3">3泊</option>
+                                                <option value="4">4泊</option>
+                                                <option value="5">5泊</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <em>人数(1部屋あたり)</em>
+                                            <select name="" id="">
+                                                <option value="1"
+                                                    selected="selected"
+                                                    slot="haku">1名</option>
+                                                <option value="2">2名</option>
+                                                <option value="3">3名</option>
+                                                <option value="4">4名</option>
+                                                <option value="5">5名</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <em>部屋数</em>
+                                            <select name="" id="">
+                                                <option value="1"
+                                                    selected="selected"
+                                                    slot="haku">1室</option>
+                                                <option value="2">2室</option>
+                                                <option value="3">3室</option>
+                                                <option value="4">4室</option>
+                                                <option value="5">5室</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <a href="">
+                                                <input type="button" value="検索"
+                                                    id="searchBtn">
+                                            </a>
+                                        </div>
+                                    </form>
+                                    <a class="js-modal-close" href="">閉じる</a>
+                                </div><!--modal__inner-->
+                            </div><!--modal-->
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-main">
+                <img src="./images/ryu2.svg" alt="icon-center">
+            </div>
+        </header>
+
+
+        <div class="wrapper">
+            <main>
+                <h1>親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。</h1>
+                <p>なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。
+                    新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。
+                    弱虫やーい。と囃したからである。小使に負ぶさって帰って来た時、おやじが大きな眼をして二階ぐらいから飛び降りて
+                    腰を抜かす奴があるかと云ったから、この次は抜かさずに飛んで見せますと答えた。（青空文庫より）</p>
+                <p>なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。
+                    新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。
+                    弱虫やーい。と囃したからである。小使に負ぶさって帰って来た時、おやじが大きな眼をして二階ぐらいから飛び降りて
+                    腰を抜かす奴があるかと云ったから、この次は抜かさずに飛んで見せますと答えた。（青空文庫より）</p>
+            </main>
+
+
+            <section>
+                <h2 class="news-header">NEWS</h2>
+                <p>お知らせ</p>
+            </section>
+            <div class="news-page">
+                <article>
+                    <figure><a href=""><img src="images/news1.jpg" alt=""></a></figure>
+                    <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+                </article>
+                <article>
+                    <figure><a href=""><img src="images/news2.jpeg" alt=""></a></figure>
+                    <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+                </article>
+                <article>
+                    <figure><a href=""><img src="images/news3.jpg" alt=""></a></figure>
+                    <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+                </article>
+            </div>
+            <p class="btn_wrapper"><a href="news.html">MORE NEWS</a></p>
+        </div>
+
+        <div class="contents">
+            <ul class="contents_box">
+                <li class="cuisine_active"><a href="cuisine.html">
+                        <h2>お料理</h2>
+                    </a>
+                </li>
+                <li class="room_active"><a href="room.html">
+                        <h2>客室</h2>
+                    </a>
+                </li>
+                <li class="spa_active"><a href="spa.html">
+                        <h2>温泉</h2>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9297.693287537999!2d135.4381876625784!3d34.52237536798208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000c4c2558d8dc9%3A0xcd559f3aaa405ccf!2z6auY55-z6aeF!5e0!3m2!1sja!2sjp!4v1676041097547!5m2!1sja!2sjp"
+                width="100%" height="450" style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p class="btn_wrapper"><a href="access.html">アクセス</a></p>
+
+        </div>
+
+        <div class="form_search">
+            <h2>空室検索</h2>
+            <form method=POST action="#">
+                <div>
+                    <label>
+                        <span>ご宿泊日</span>
+                        <input type="date" value="date">
+                    </label>
+                </div>
+                <div>
+                    <em>泊数</em>
+                    <select name="" id="">
+                        <option value="1" selected="selected" slot="haku">1泊</option>
+                        <option value="2">2泊</option>
+                        <option value="3">3泊</option>
+                        <option value="4">4泊</option>
+                        <option value="5">5泊</option>
+                    </select>
+                </div>
+                <div>
+                    <em>人数(1部屋あたり)</em>
+                    <select name="" id="">
+                        <option value="1" selected="selected" slot="haku">1名</option>
+                        <option value="2">2名</option>
+                        <option value="3">3名</option>
+                        <option value="4">4名</option>
+                        <option value="5">5名</option>
+                    </select>
+                </div>
+                <div>
+                    <em>部屋数</em>
+                    <select name="" id="">
+                        <option value="1" selected="selected" slot="haku">1室</option>
+                        <option value="2">2室</option>
+                        <option value="3">3室</option>
+                        <option value="4">4室</option>
+                        <option value="5">5室</option>
+                    </select>
+                </div>
+                <div>
+                    <a href="">
+                        <input type="button" value="検索" id="searchBtn">
+                    </a>
+                </div>
+            </form>
+        </div>
+
+        <footer>
+            <img src="images/ryu.jpg" alt="">
+            <p><small>&copy; 2023 ryujinsou</small></p>
+        </footer>
+    </body>
+
+</html>
