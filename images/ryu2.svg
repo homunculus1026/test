@@ -31,7 +31,7 @@
     </pattern>
   </defs>
   <g id="ryu2" clip-path="url(#clip_1)">
-    <path d="M0 0L381.543 0L381.543 519L0 519L0 0Z" id="ryu2" fill="none" fill-rule="evenodd" stroke="none" />
+    <path d="M0 0L381.543 0L381.543 519L0 519L0 0Z" id="ryu2" fill="#FFFFFF" fill-opacity="0" fill-rule="evenodd" stroke="none" />
     <g id="Group" transform="translate(6 92.507324)">
       <g id="グループ">
         <g id="グループ#1">
